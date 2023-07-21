@@ -1,0 +1,35 @@
+.cart {
+    min-height: 75vh;
+}
+
+.empty-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.empty-cart button {
+    color: #fff;
+   border-radius: 8px;
+    background-color: #8c5c87;
+    border: none;
+}
+
+.empty-img {
+    max-width: 500px;
+}
+
+.empty-text {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+    .empty-cart{
+        min-height: 80vh;
+    }
+}

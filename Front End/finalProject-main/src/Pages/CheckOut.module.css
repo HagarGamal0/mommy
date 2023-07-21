@@ -1,0 +1,19 @@
+.checkout {
+  padding: 100px 0px;
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+}
+
+.checkout_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 180px;
+ width: calc(60% - 40px);
+}
+
+
+.order_view {
+  width: 40%;
+}

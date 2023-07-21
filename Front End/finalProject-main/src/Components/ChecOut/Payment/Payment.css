@@ -1,0 +1,213 @@
+.payment_title {
+  border-bottom: 1px solid ;
+  padding: 20px;
+  font-weight: 600;
+  box-shadow: 0px 0px 5px #eee;
+}
+
+.checkout__payment {
+  position: relative;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #eee;
+  padding: 20px 10px;
+  min-width: 500px;
+  padding-top: 100px;
+}
+
+.payment__info form .card-number,
+.payment__info form .card-name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: baseline;
+  flex-wrap: wrap;
+}
+
+.card-number_text {
+  text-align: right;
+  width: 100%;
+  margin: 20px 0px 5px;
+}
+
+.payment__info form input,
+.card-secure select {
+  width: 75px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid;
+  padding: 4px 8px;
+  box-shadow: inset 0px 0px 2px #7e1846;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.payment__info form .card-name input {
+  width: 100%;
+}
+
+.card-name_text {
+  margin: 40px 0px 5px;
+}
+
+.card-secure {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-secure > div > p {
+  margin-bottom: 10px;
+}
+
+.card-secure select {
+  margin-right: 5px;
+}
+
+.checkout-btn {
+  width: 80%;
+  border: none;
+  background-color: #af4972;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.4s ease-in-out;
+}
+
+.checkout-btn:hover {
+  background-color: #7e1846;
+}
+
+.credit-card {
+  perspective: 1000;
+  position: absolute;
+  height: 280px;
+  width: 400px;
+  top: -150px;
+  left: 250px;
+  transform: translateX(-50%);
+}
+
+.credit-card:hover .flip,
+.credit-card.active .flip {
+  transform: rotateY(180deg);
+}
+
+.flip {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.credit-card .front,
+.credit-card .back {
+  backface-visibility: hidden;
+  background-color: #af4972;
+  border-radius: 10px;
+  position: absolute;
+  height: 280px;
+  width: 400px;
+  top: 0;
+  right: 0;
+}
+
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.credit-card_header {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.credit-card_header-chip img {
+  width: 60px;
+  height: 40px;
+}
+
+.credit-card_header-logo img,
+.back img {
+  width: 70px;
+  height: 40px;
+}
+
+.credit-card_footer-number {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.credit-card_footer .footer {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.credit-card_footer-name,
+.credit-card_footer-date {
+  display: flex;
+  flex-direction: column;
+  min-height: 85px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.credit-card_footer-name {
+  width: 70%;
+}
+
+.credit-card_footer-name .name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.back .black-strip {
+  background: linear-gradient(135deg, rgb(64, 64, 64), rgb(26, 26, 26));
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 30px;
+  left: 0;
+}
+
+.white-strip {
+  background-color: #fff;
+  position: absolute;
+  height: 30px;
+  width: 80%;
+  top: 130px;
+  transform: translateX(-10%);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.white-strip span {
+  color: #000;
+}
+
+.back img {
+  position: absolute;
+  top: 220px;
+  left: 10px;
+}

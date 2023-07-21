@@ -1,0 +1,8 @@
+.addBlogBtn {
+    border:  1px solid #76005f;
+}
+
+.addBlogBtn:hover {
+    color: #FFF;
+    background-color: #76005f;
+}

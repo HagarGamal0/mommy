@@ -1,0 +1,142 @@
+.Product{
+    direction: rtl;
+    font-family: 'myArabicFont';
+    background-color: #fefefedc;
+}
+/* start product */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.title{
+    padding: 20px;
+    margin-top: 50px;
+}
+.title-product h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 12px;
+}
+
+
+ /* .title-product h1::after{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 2px;
+    background-color: black;
+    right: 46.5%;
+    position: absolute;
+    margin-top: 10px;
+}   */
+.search{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.search input{
+    width: 50%;
+    height: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #8c5c87;
+    outline: none;
+}
+/* .search i{
+    position: absolute;
+    top: 27.5%;
+    left: 31%;
+    color: #555;
+} */
+.card-info{
+    display: flex;
+    justify-content:baseline;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+.bar{
+text-align: center;
+}
+.bar .btn{
+    border: 1px solid #8c5c87;
+    font-size: 18px;
+    transition: 0.3s all;
+    letter-spacing: 3px;
+    margin: 0px 5px;
+}
+.bar .btn:hover{
+    background-color: #8c5c87;
+    color: #fff;
+}
+
+/* start media quireis */
+@media(max-width:1200px){
+    .container{
+        width: 80%;
+    }
+    .title-product{
+        width: 100%;
+    }
+    /* .title-product h1::after{
+        right: 45.5%;
+    } */
+    .search input{
+        width: 100%;
+    }
+    .product-info{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media(max-width:992px){
+    .container{
+        width: 80%;
+    }
+    /* .title-product h1::after{
+        right: 45%;
+    } */
+    .search input{
+        width: 100%;
+    }
+    .product-info{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .container{
+        width: 80%;
+    }
+    /* .title-product h1::after{
+        right: 40%;
+    } */
+    .search input{
+        width: 100%;
+    }
+    .product-info{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    .container{
+        width: 80%;
+    }
+    /* .title-product h1::after{
+        right: 37%;
+    } */
+    .search input{
+        width: 100%;
+    }
+    input::placeholder{
+        font-size: 14px;
+    }
+    .product-info{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}

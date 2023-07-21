@@ -1,0 +1,31 @@
+.checkout__address {
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px #eee;
+    padding: 20px 10px;
+  }
+  
+  .address__head {
+    border-radius: 8px;
+  }
+  
+  .address__head-title {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+        border-bottom: thin solid;
+  }
+  
+  .address__head-title p {
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+    .address__head-title span {
+      cursor: pointer;
+      padding: 0px 20px;
+    }
+
+    .hidden {
+      display: none;
+    }

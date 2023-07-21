@@ -1,0 +1,162 @@
+.form-container{
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+.sign-greeting{
+    margin-bottom: 25px;
+}
+.sign-greeting h2{
+    line-height: 2;
+}
+.sign-image{
+    width: 50%;
+}
+.sign-image img{
+    width: 100%;
+    border: 1px solid transparent;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+
+.sign-form{
+    width: 50%;
+    max-height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.04);  
+  
+
+}
+.sign-form h2{
+    padding: 15px;
+}
+.sign-form p{
+    margin-bottom: 0px;
+}
+
+
+.sign-form form{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-form form input{
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #a9a9a9;
+    width: 300px;
+}
+
+.btn-signin{
+    background: none;
+    width: 150px;
+    height: 60px;
+    border: 1px solid #a9a9a9;
+    transition: 0.3s all;
+    border-radius: 10px;
+    margin: 10px 0px;
+
+}
+.btn-signin:hover{
+    background: #8c5c78;
+    color: #fff;
+}
+.sign-form .error-msg {
+    color: red;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 20px;
+    display: block;
+    align-self:flex-start;
+}
+
+/* start media */
+@media(max-width:1200px){
+    .sign-form{
+        width:50%;
+    }
+    .sign-form form input{
+        width: 100%;
+    }
+    .btn-signin{
+        width: 100%;
+    }
+    .sign-image{
+        width: 50%;
+       
+    }
+    .sign-image img{
+        width: 100%;
+        border: 1px solid transparent;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+@media(max-width:992px){
+    .sign-form{
+        width: 100%;
+    }
+    .sign-form form input{
+        width: 100%;
+    }
+    .btn-signin{
+        width: 100%;
+    }
+    .sign-image{
+        width: 100%;
+       
+    }
+    .sign-image img{
+        width: 100%;
+        border: 1px solid transparent;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+@media(max-width:768px){
+    .sign-form{
+        width: 100%;
+    }
+    .sign-form form input{
+        width: 100%;
+    }
+    .btn-signin{
+        width: 100%;
+    }
+    .sign-image{
+      display: none;
+    }
+    .sign-image img{
+        width: 100%;
+        border: 1px solid transparent;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px
+    }
+}
+@media(max-width:450px){
+    .sign-form{
+        width: 100%;
+    }
+    .sign-form form input{
+        width: 100%;
+    }
+    .btn-signin{
+        width: 100%;
+    }
+    .sign-image{
+        width: 50%;
+    }
+    .sign-image img{
+        width: 100%;
+        border: 1px solid transparent;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
+

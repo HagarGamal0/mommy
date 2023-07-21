@@ -1,0 +1,40 @@
+.join{
+    background-color: #A96F90;
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.join-title{
+    padding: 20px;
+    color: #fff;
+    
+}
+.join-title h1{
+    font-weight: 600;
+}
+.join-title p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.join-contant{
+    display: flex;
+}
+
+/* start media quary */
+@media(max-width:1200px){
+    .container{
+        width: 80%;
+    }
+    .join-contant{
+        flex-direction: column;
+    }
+}
+@media(max-width:992px){
+    .join-contant{
+        flex-direction: column;
+       
+    }
+}
+

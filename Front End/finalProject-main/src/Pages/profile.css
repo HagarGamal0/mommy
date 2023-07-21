@@ -1,0 +1,60 @@
+.Profile{
+    padding: 30px;
+  
+}
+
+.profile-title{
+    font-size: 100px;
+    text-align: center;
+    padding: 20px;
+    color:#FA0F94;
+}
+.profileheader{
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%; 
+    position: relative;
+    top: 0;
+    left: 0;
+    background: url(../images/profile-image/WhatsApp\ Image\ 2023-07-12\ at\ 22.00.41.jpg);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+.profileimage{
+    position: absolute;
+    bottom: -20%;
+    right: 8%;
+}
+.profileimage img{
+    width: 35%;
+    border-radius: 50%;
+    
+}
+.profile_name{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    right: 21%;
+    font-size: 40px;
+    color: #fff;
+}
+.profile_card{
+    height: 50vh;
+}
+.profile_card-btn{
+    margin: 10px;
+    background-color: #76005e9b;
+    color: #fff;
+}
+@media (min-width: 1200px) {
+    .Profile {
+        min-height: 80vh;
+    }
+}

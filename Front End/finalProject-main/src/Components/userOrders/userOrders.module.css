@@ -1,0 +1,37 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #ddd;
+
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.headItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.headItem  span:first-child {
+    font-weight: 600;
+}
+
+.body {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image img{
+    width: 100px;
+}

@@ -1,0 +1,89 @@
+/* start Card Info */
+
+.card-info{
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+   
+}
+.mum-card{
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+.mum-card h1{
+    color: #212529;
+}
+.mum-card p{
+    color: #7F7F7F;
+}
+.seller-card{
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+}
+.seller-card h1{
+    color: #212529;
+}
+.seller-card p{
+    color: #7F7F7F;
+}
+.btn{
+    background-color: transparent;
+    color: #000;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid #7F7F7F;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid #ff1493;
+}
+.dropdown-content a{
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .btn{
+    background-color: #ff1493;
+    color: #fff;
+}
+
+/* start media quary */
+@media(max-width:1200px){
+    .container{
+        width: 80%;
+    }
+    }
+
+@media(max-width:992px){
+    .join-info{
+        flex-direction: column;
+       
+    }
+}

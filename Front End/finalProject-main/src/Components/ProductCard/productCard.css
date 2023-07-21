@@ -1,0 +1,14 @@
+.product-image {
+    min-height: 250px;
+    max-height: 250px;
+}
+
+.product-title {
+    max-height: 30px;
+    overflow: hidden;
+}
+
+.product-description {
+    max-height: 50px;
+    overflow: hidden;
+}
